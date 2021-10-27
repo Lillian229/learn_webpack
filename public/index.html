@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>test2</title> -->
+    <!-- //htmlWebpackPlugin.options属性是插件规定死的，后面那个title即可随意写，类似于后台渲染，该模板被node（webpack,webpack的根还是node）拿走，进行编译,把这个文件让webpack读一下，一边读一边编译，把所有的关于ejs的语法都变成正常的变量 -->
+    <title><%= htmlWebpackPlugin.options.titleyaya %></title>
+    <link rel="stylesheet" href="./1.css">
+    <style>
+
+
+    </style>
+</head>
+<body>
+    test2
+    <h1>随便试试</h1>
+    <button id = 'btn'>+</button>
+    <script>
+
+    </script>
+</body>
+</html>
